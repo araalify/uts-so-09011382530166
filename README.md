@@ -6,7 +6,7 @@
 - **Kelas:** SKU3B
 
 ## 2. Deskripsi
-Repositori ini berisi Tugas Besar UTS Sistem Operasi berupa rangkaian script bash untuk melakukan otomatisasi pencarian file catatan berformat `.txt` (termasuk di dalam subdirektori), mengompresnya menjadi arsip `.tar.gz` dengan format penamaan berbasis waktu (*timestamp*), serta mencatat aktivitas proses ke dalam file `backup.log`.
+Script ini dirancang untuk mengotomatisasi proses pencarian file catatan praktikum berformat `.txt` (termasuk di dalam subdirektori) menggunakan utilitas `find`, kemudian mengarsip dan mengompresnya ke dalam format `.tar.gz` dengan penamaan berbasis waktu (`timestamp`), serta mencatat riwayat eksekusi ke dalam file `backup.log`[cite: 1, 2].
 
 ## 3. Cara Menjalankan
 - **Menjalankan backup manual:**
