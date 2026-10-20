@@ -45,10 +45,3 @@ ara@ara-VirtualBox:~/uts-so-09011382530166$ ps x
 ara@ara-VirtualBox:~/uts-so-09011382530166$ kill %1
 [1]+  Terminated              ./script/backup_loop.sh
 ```[cite: 3]
-
-## 6. Kendala
-- *Kendala 1:* Sempat mengalami error Permission denied saat pertama kali menjalankan script di background.
-  - *Solusi:* Memberikan izin eksekusi terlebih dahulu menggunakan perintah chmod +x script/*.sh[cite: 3, 5].
-- *Kendala 2:* Terjadi error jalur direktori saat script dijalankan dari luar folder repositori.
-  - *Solusi:* Memastikan pemanggilan script selalu menggunakan jalur relatif yang benar atau menggunakan variabel direktori berbasis $HOME[cite: 2].
-```[cite: 3]
