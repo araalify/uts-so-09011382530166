@@ -44,4 +44,11 @@ ara@ara-VirtualBox:~/uts-so-09011382530166$ ps x
  4442 pts/0    S      0:00 /bin/bash ./script/backup_loop.sh
 ara@ara-VirtualBox:~/uts-so-09011382530166$ kill %1
 [1]+  Terminated              ./script/backup_loop.sh
-```[cite: 3]
+```
+
+## 6. Kendala
+
+1. Mendapatkan Permission Denied karena belum memberi izin eksekusi pada file.
+2. Kesulitan menggunakan Nano, sehingga memakai VS Code.
+3. Kesulitan memahami panduan tugas.
+4. `backup.sh` gagal karena variabel `SRC_DIR` terhapus.
