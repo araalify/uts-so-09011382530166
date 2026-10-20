@@ -3,10 +3,10 @@
 ## 1. Identitas
 - **Nama:** Ara Afidah Alifiya
 - **NIM:** 09011382530166
-- **Kelas:** SKU2B
+- **Kelas:** SKU3B
 
 ## 2. Deskripsi
-Script ini dirancang untuk mengotomatisasi proses pencarian file catatan praktikum berformat `.txt` (termasuk di dalam subdirektori) menggunakan utilitas `find`, kemudian mengarsip dan mengompresnya ke dalam format `.tar.gz` dengan penamaan berbasis waktu (`timestamp`), serta mencatat riwayat eksekusi ke dalam file `backup.log`[cite: 1, 2].
+Repositori ini berisi Tugas Besar UTS Sistem Operasi berupa rangkaian script bash untuk melakukan otomatisasi pencarian file catatan berformat `.txt` (termasuk di dalam subdirektori), mengompresnya menjadi arsip `.tar.gz` dengan format penamaan berbasis waktu (*timestamp*), serta mencatat aktivitas proses ke dalam file `backup.log`.
 
 ## 3. Cara Menjalankan
 - **Menjalankan backup manual:**
@@ -47,8 +47,8 @@ ara@ara-VirtualBox:~/uts-so-09011382530166$ kill %1
 ```[cite: 3]
 
 ## 6. Kendala
-- **Kendala 1:** Sempat mengalami error *Permission denied* saat pertama kali menjalankan script di background.
-  - **Solusi:** Memberikan izin eksekusi terlebih dahulu menggunakan perintah `chmod +x script/*.sh`[cite: 3, 5].
-- **Kendala 2:** Terjadi error jalur direktori saat script dijalankan dari luar folder repositori.
-  - **Solusi:** Memastikan pemanggilan script selalu menggunakan jalur relatif yang benar atau menggunakan variabel direktori berbasis `$HOME`[cite: 2].
+- *Kendala 1:* Sempat mengalami error Permission denied saat pertama kali menjalankan script di background.
+  - *Solusi:* Memberikan izin eksekusi terlebih dahulu menggunakan perintah chmod +x script/*.sh[cite: 3, 5].
+- *Kendala 2:* Terjadi error jalur direktori saat script dijalankan dari luar folder repositori.
+  - *Solusi:* Memastikan pemanggilan script selalu menggunakan jalur relatif yang benar atau menggunakan variabel direktori berbasis $HOME[cite: 2].
 ```[cite: 3]
